@@ -3,7 +3,7 @@
  * An accessory for EE Insider News & Tips
  *
  * @package EE Insider
- * @author Kenny Meyers <kenny.meyers@gmail.com>
+ * @author Kenny Meyers <kenny.meyers@gmail.com>, Ryan Irelan <ryan@mijingo.com
  * @copyright 2009 (C) EE Insider
  * @date_created Mon Dec 14 01:18:55 PST 2009
  *
@@ -35,11 +35,11 @@ class EEInsider_acc {
 	public function set_sections()
 	{
 		$this->sections["Latest News"] = $this->get_rss("http://feeds.feedburner.com/eeinsider?format=xml", array(
-			"url" => "http://www.eeinsider.com/",
+			"url" => "http://eeinsider.com?utm_source=eeinsider_accessory&utm_medium=addon&utm_campaign=EE%2BInsider%20Accesory",
 			"title" => "Visit EE Insider"
 		));
 		$this->sections["Latest Tips"] = $this->get_rss("http://eeinsider.com/tips/rss", array(
-			"url" => "http://eeinsider.com/tips/add",
+			"url" => "http://eeinsider.com/tips/add?utm_source=eeinsider_accessory&utm_medium=addon&utm_campaign=EE%2BInsider%20Accesory",
 			"title" => "Add a tip",
 		));
 		$this->sections["Buy The Book"] = $this->EE->load->view('ad.html', array(), TRUE);
