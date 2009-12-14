@@ -1,6 +1,6 @@
 h1. EE Insider Accessory
 
-Requires: ExpressionEngine 2.0 PB or greater
+Requires: ExpressionEngine 2.0 PB or greater, PHP 5
 
 Installation: 
 
