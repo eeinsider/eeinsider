@@ -35,11 +35,11 @@ class EEInsider_acc {
 	public function set_sections()
 	{
 		$this->sections["Latest News"] = $this->get_rss("http://feeds.feedburner.com/eeinsider?format=xml", array(
-			"url" => "http://eeinsider.com?utm_source=eeinsider_accessory&utm_medium=addon&utm_campaign=EE%2BInsider%20Accesory",
+			"url" => "http://eeinsider.com/index.php?utm_source=eeinsider_accessory&utm_medium=addon&utm_campaign=EE%2BInsider%20Accesory",
 			"title" => "Visit EE Insider"
 		));
 		$this->sections["Latest Tips"] = $this->get_rss("http://eeinsider.com/tips/rss", array(
-			"url" => "http://eeinsider.com/tips/add?utm_source=eeinsider_accessory&utm_medium=addon&utm_campaign=EE%2BInsider%20Accesory",
+			"url" => "http://eeinsider.com/tips?utm_source=eeinsider_accessory&utm_medium=addon&utm_campaign=EE%2BInsider%20Accesory",
 			"title" => "Add a tip",
 		));
 		$this->sections["Buy The Book"] = $this->EE->load->view('ad.html', array(), TRUE);
