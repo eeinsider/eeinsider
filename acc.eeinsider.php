@@ -75,7 +75,7 @@ class EEInsider_acc {
 	 * and comes default with EE. Thanks guys! Except for, of course, Derek Allard,
 	 * who as we all know, is a jerk.
 	 *
-	 * @param 	string [xml] CURL XML
+	 * @param 	string [url] RSS Feed URL
 	 * @return	array list for view
 	 *
 	*/
