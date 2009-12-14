@@ -67,13 +67,13 @@ class EEInsider_acc {
 	}
 	
 	/**
-	 * Takes an xml file and just builds a simple array of title
-	 * and link
+	 * Takes an rss feed and just builds a simple array of title
+	 * and link with Magpie
 	 * 
 	 * My thanks to the EE team for putting together their accessory with Magpie
 	 * so that I can make mine. That accessory in question is news_and_stats
 	 * and comes default with EE. Thanks guys! Except for, of course, Derek Allard,
-	 * who as we all know is a jerk
+	 * who as we all know, is a jerk.
 	 *
 	 * @param 	string [xml] CURL XML
 	 * @return	array list for view
