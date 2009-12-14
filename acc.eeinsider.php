@@ -36,11 +36,11 @@ class EEInsider_acc {
 	{
 		$this->sections["Latest News"] = $this->get_rss("http://feeds.feedburner.com/eeinsider?format=xml", array(
 			"url" => "http://www.eeinsider.com/",
-			"title" => "Go To Site"
+			"title" => "Visit EE Insider"
 		));
 		$this->sections["Latest Tips"] = $this->get_rss("http://eeinsider.com/tips/rss", array(
 			"url" => "http://eeinsider.com/tips/add",
-			"title" => "Add a Tip",
+			"title" => "Add a tip",
 		));
 		$this->sections["Buy The Book"] = $this->EE->load->view('ad.html', array(), TRUE);
 	}
