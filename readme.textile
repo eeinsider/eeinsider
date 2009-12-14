@@ -1,1 +1,11 @@
 h1. EE Insider Accessory
+
+Requires: ExpressionEngine 2.0 PB or greater
+
+Installation: 
+
+# Download the zip file from GitHub and unzip. 
+# Rename the directory to @eeinsider@.
+# Move the entire @eeinsider@ directory to @system/expressionengine/third_party@
+# In your EE 2.0 Control Panel, go to the Accessories management screen. Install the add-on by clicking the "Install" link to the right.
+ 
